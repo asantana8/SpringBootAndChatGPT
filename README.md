@@ -37,3 +37,9 @@ O plugin `spring-boot-maven-plugin` é configurado para excluir a dependência d
 O projeto usa o repositório `spring-milestones` para buscar as dependências necessárias.
 
 
+## Exemplo de teste utilizando o POSTMAN
+Para simplificar o teste, todos os recursos de autenticação/token já ficam no código. Logo, basta configura um método GET simples no POSTMAN para o serviço resolver o resto da complexidade de coneção e integração.
+
+GET http://localhost:8080/bot/chat?prompt=Qual a temperatura media em Recife, Pernambuco?
+
+NOTA: Para testar este código, será preciso mudar o TOKEN configurado no proporties.application para o seu API KEY.

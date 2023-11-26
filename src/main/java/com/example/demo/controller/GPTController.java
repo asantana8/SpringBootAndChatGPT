@@ -26,8 +26,12 @@ public class GPTController {
 
     @GetMapping("/chat")
     public String chat(@RequestParam("prompt") String prompt){
+        try{
         ChatGptRequest request=new ChatGptRequest(model, prompt);
         ChatGptResponse chatGptResponse = template.postForObject(apiURL, request, ChatGptResponse.class);
         return chatGptResponse.getChoices().get(0).getMessage().getContent();
+        } catch (Exception ex){
+            return ex.getMessage();
+        }
     }
 }

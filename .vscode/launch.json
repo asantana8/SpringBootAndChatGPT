@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoGtpMicroApplication<demoGTPMicro>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.demo.DemoGtpMicroApplication",
+            "projectName": "demoGTPMicro",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"            
+        }
+    ]
+}

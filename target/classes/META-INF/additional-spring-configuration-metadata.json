@@ -1,0 +1,13 @@
+{"properties": [{
+  "name": "openai.api.key",
+  "type": "java.lang.String",
+  "description": "Aqui vai o token gerado para seu usuário/conta no OpenAPI site"
+}]}{"properties": [{
+  "name": "openai.model",
+  "type": "java.lang.String",
+  "description": "Aqui vai a indicação da versão do chat que será utilizada na integração"
+}]}{"properties": [{
+  "name": "openai.api.url",
+  "type": "java.lang.String",
+  "description": "A URL padrão de acesso a API da OpenAI'"
+}]}

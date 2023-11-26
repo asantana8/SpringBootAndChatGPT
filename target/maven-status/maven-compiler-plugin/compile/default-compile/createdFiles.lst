@@ -1,0 +1,5 @@
+com\example\demo\configs\WebConfig.class
+com\example\demo\DemoGtpMicroApplication.class
+com\example\demo\configs\OpenAIConfig.class
+com\example\demo\controller\GPTController.class
+com\example\demo\service\GPTService.class
